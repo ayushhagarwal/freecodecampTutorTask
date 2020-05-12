@@ -1,0 +1,68 @@
+body
+{
+  background: #C6FFDD;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+h1
+{
+  text-align:center;
+  color:brown;
+}
+h2
+{
+  text-align:center;
+  color:orange;
+}
+img
+{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  background-color: var(--contrast-background, gray);
+  border-radius: 10px;
+}
+
+#footer-content {
+  margin: auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+.text-content {
+  text-align: justify;
+}
+
+li {
+  margin-top: 10px;
+}
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+time {
+  font-weight: bold;
+}
+
+#image-label {
+  text-align: center;
+  font-size: 15px;
+}
+
+#tribute-link:hover {
+  color: hsl(220, 88%, 60%);
+}
+
+#tribute-link {
+  color: hsl(220, 57%, 42%);
+}
